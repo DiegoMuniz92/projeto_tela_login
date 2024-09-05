@@ -7,6 +7,7 @@
 
     section#login {
         width: 80vw;
+        height: 350px;
     }
 
     section#login > div#imagem {
@@ -26,6 +27,16 @@
     
     div#formulario {
         font-size: 1.2em;
+    }
+
+    div.campo > input {
+        width: calc(100% - 46px);
+        transform: translatey(-12px);
+    }
+
+    div.campo > span {
+        height: 33px;
+        font-size: 1.5em;
     }
 }
 
@@ -55,5 +66,15 @@
     
     div#formulario {
         font-size: 1.2em;
+    }
+    
+    div.campo > input {
+        width: calc(100% - 46px);
+        transform: translatey(-12px);
+    }
+
+    div.campo > span {
+        height: 33px;
+        font-size: 1.5em;
     }
 }
